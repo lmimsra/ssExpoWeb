@@ -41,6 +41,9 @@ export default {
 
   components: {
     Card
+  },
+  mounted() {
+    console.log(this.$auth.state)
   }
 }
 </script>
