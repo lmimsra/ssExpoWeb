@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: process.env.NODE_ENV === 'production' ? '.env.prod' : '.env.dev'
+})
+
 module.exports = {
   mode: 'spa',
   /*
@@ -43,8 +47,28 @@ module.exports = {
     'nuxt-buefy',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/auth', // authモジュール
+    // Doc:https://github.com/nuxt-community/dotenv-module
+    '@nuxtjs/dotenv'
   ],
+  /*
+   ** authモジュール設定
+   */
+  auth: {
+    strategies: {
+      auth0: {
+        domain: process.env.AUTH_DOMAIN,
+        client_id: process.env.AUTH_CLIENT_ID
+      }
+    },
+    redirect: {
+      login: '/login', // 未ログイン時のリダイレクト先
+      logout: '/', // ログアウト処理を実行した直後のリダイレクト先
+      callback: '/callback', // コールバックURL
+      home: '/' // ログイン後に遷移するページ
+    }
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
