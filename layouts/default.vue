@@ -9,7 +9,6 @@
         <a class="navbar-item" href="/">
           SS-Expo
         </a>
-
         <!--        <div class="navbar-burger">-->
         <!--          <span />-->
         <!--          <span />-->
@@ -18,7 +17,7 @@
       </div>
     </nav>
 
-    <section class="main-content columns">
+    <section class="main-content columns nav-spacer">
       <!--      <aside class="column is-2 section">-->
       <!--        <p class="menu-label is-hidden-touch">-->
       <!--          General-->
@@ -45,9 +44,6 @@ import GlobalFooter from '@/components/GlobalFooter'
 
 export default {
   components: { GlobalFooter },
-  comments: {
-    GlobalFooter
-  },
   data() {
     return {
       items: [
@@ -66,3 +62,9 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+.nav-spacer {
+  margin: 3rem 0;
+}
+</style>

@@ -38,9 +38,9 @@
 
 export default {
   name: 'HomePage',
-
-  components: {
-    // Card,
+  components: {},
+  fetch({ redirect }) {
+    redirect(200, '/home')
   }
 }
 </script>

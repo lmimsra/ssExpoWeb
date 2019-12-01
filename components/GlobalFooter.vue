@@ -8,21 +8,24 @@
     <div class="tabs is-fullwidth">
       <ul>
         <li>
-          <a :class="{ active: activePage === 0 }" @click="switchPage(0)">
-            <span>ホーム</span>
-          </a>
+          <!--          <a :class="{ active: activePage === 0 }" @click="switchPage(0)">-->
+          <!--            <span>ホーム</span>-->
+          <!--          </a>-->
+          <nuxt-link to="/home"><span>ホーム</span></nuxt-link>
         </li>
         |
         <li>
-          <a :class="{ active: activePage === 1 }" @click="switchPage(1)">
-            <span>通知</span>
-          </a>
+          <!--          <a :class="{ active: activePage === 1 }" @click="switchPage(1)">-->
+          <!--            <span>通知</span>-->
+          <!--          </a>-->
+          <nuxt-link to="/notification"><span>通知</span></nuxt-link>
         </li>
         |
         <li>
-          <a :class="{ active: activePage === 2 }" @click="switchPage(2)">
-            <span>ユーザー</span>
-          </a>
+          <!--          <a :class="{ active: activePage === 2 }" @click="switchPage(2)">-->
+          <!--            <span>ユーザー</span>-->
+          <!--          </a>-->
+          <nuxt-link to="/user"><span>ユーザー</span></nuxt-link>
         </li>
       </ul>
     </div>
@@ -60,7 +63,7 @@ export default {
   a:hover {
     border-bottom-color: #dbdbdb;
   }
-  a.active {
+  .nuxt-link-active {
     border-bottom-color: #dbdbdb;
   }
   ul {
