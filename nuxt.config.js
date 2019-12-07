@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: process.env.NODE_ENV === 'production' ? '.env.prod' : '.env.dev'
+})
+
 module.exports = {
   mode: 'spa',
   /*
@@ -5,6 +9,9 @@ module.exports = {
    */
   head: {
     title: process.env.npm_package_name || '',
+    htmlAttrs: {
+      lang: 'ja'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,7 +30,7 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [{ src: '~assets/main.scss', lang: 'scss' }],
   /*
    ** Plugins to load before mounting the App
    */
