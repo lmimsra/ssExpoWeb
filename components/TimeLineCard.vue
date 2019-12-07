@@ -19,18 +19,22 @@
             </p>
             <p class="subtitle is-6">
               <span>
-                {{ cardContent.owner }}
+                {{ cardContent.user }}
               </span>
-              <span>(@{{ cardContent.ownerId }})</span>
+              <span>(@{{ cardContent.userId }})</span>
             </p>
             <div class="content">
-              <!-- メインコンテンツ -->
+              <!-- コメント -->
               {{ cardContent.comment }}
             </div>
+            <!-- 写真 -->
             <p>
               <img
-                src="https://bulma.io/images/placeholders/96x96.png"
-                alt="Placeholder image"
+                v-for="(imageUrl, index) in cardContent.images"
+                :key="index"
+                :src="imageUrl"
+                alt="ss image"
+                class="ss-content"
               />
             </p>
           </div>
@@ -69,9 +73,12 @@ export default {
 .item-title {
   font-weight: bold;
 }
-.owner-text {
+.user-text {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.ss-content {
+  margin: 0 0.25rem;
 }
 </style>

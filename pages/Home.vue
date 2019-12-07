@@ -22,132 +22,142 @@ export default {
       timeLineItem: [
         {
           id: 111,
-          owner: 'test1',
-          ownerId: '12345667',
+          user: 'test1',
+          userId: '12345667',
           title: 'テスト投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-09-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         },
         {
           id: 112,
-          owner: 'test2',
-          ownerId: '2312',
+          user: 'test2',
+          userId: '2312',
           title: 'テスト投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-10-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         },
         {
           id: 112,
-          owner: 'test2',
-          ownerId: '2312',
+          user: 'test2',
+          userId: '2312',
           title: 'テスト投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-10-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         },
         {
           id: 112,
-          owner: 'test2',
-          ownerId: '2312',
+          user: 'test2',
+          userId: '2312',
           title: 'テスト投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-10-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         },
         {
           id: 112,
-          owner: 'test2',
-          ownerId: '2312',
+          user: 'test2',
+          userId: '2312',
           title: 'テスト投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-10-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         },
         {
           id: 112,
-          owner: 'test2',
-          ownerId: '2312',
+          user: 'test2',
+          userId: '2312',
           title: 'テスト投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-10-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         },
         {
           id: 112,
-          owner: 'test2',
-          ownerId: '2312',
+          user: 'test2',
+          userId: '2312',
           title: 'テスト投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-10-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         },
         {
           id: 112,
-          owner: 'test2',
-          ownerId: '2312',
+          user: 'test2',
+          userId: '2312',
           title: 'テストな投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-10-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         },
         {
           id: 112,
-          owner: 'test2',
-          ownerId: '2312',
+          user: 'test2',
+          userId: '2312',
           title: 'テスト投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-10-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         },
         {
           id: 112,
-          owner: 'test2',
-          ownerId: '2312',
+          user: 'test2',
+          userId: '2312',
           title: 'テスト投稿',
           comment: '全ユーザーが見れるコメント',
-          publishTime: '2019-05-09 12:30:00',
-          limitTime: '2019-10-09 12:30:00',
-          participants: [
-            { id: 123, name: 'おらおら', status: 3 },
-            { id: 223, name: 'われわれ', status: 1 }
+          like: 3,
+          images: [
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png',
+            'https://bulma.io/images/placeholders/96x96.png'
           ]
         }
       ]
